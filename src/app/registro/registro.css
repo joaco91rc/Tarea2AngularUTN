@@ -1,0 +1,105 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+    width: 450px;
+    margin: 50px auto;
+    background-color: #142434;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #d4af37;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #142434;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 5px #d4af37;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d4af37;
+    color: #142434;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #142434;
+}
+
+small {
+    color: #ffb3b3;
+    display: block;
+    margin-top: 5px;
+}
+
+.campo-invalido {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+.errores {
+  color: #ffb3b3;
+  margin-top: 6px;
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+.mensaje-exito {
+  margin-top: 18px;
+  text-align: center;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+  color: #ffffff;
+}
